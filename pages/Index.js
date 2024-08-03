@@ -25,13 +25,13 @@ const Index = ({navigation}) => {
             <View style={{ margin: 20, flexDirection: 'row', justifyContent: 'space-between' }}>
                 <TouchableOpacity onPress={()=>navigation.navigate('Question',{type:'type1'})}>
                     <View style={{ alignItems: 'center' }}>
-                        <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.png')} />
+                        <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.jpeg')} />
                         <Text style={{color:'#fff'}}>React</Text>
                     </View>
                 </TouchableOpacity >
                 <TouchableOpacity onPress={()=>navigation.navigate('Question',{type:'type2'})}>
                 <View style={{ alignItems: 'center' }}>
-                    <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.png')} />
+                    <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.jpeg')} />
                     <Text style={{color:'#fff'}}>PHP</Text>
                 </View>
                 </TouchableOpacity>
@@ -39,13 +39,13 @@ const Index = ({navigation}) => {
             <View style={{ margin: 20, flexDirection: 'row', justifyContent: 'space-between' }}>
                 <TouchableOpacity onPress={()=>navigation.navigate('Question',{type:'type3'})}>
                     <View style={{ alignItems: 'center' }}>
-                        <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.png')} />
+                        <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.jpeg')} />
                         <Text style={{color:'#fff'}}>HTML</Text>
                     </View>
                 </TouchableOpacity >
                 <TouchableOpacity onPress={()=>navigation.navigate('Question',{type:'type4'})}>
                 <View style={{ alignItems: 'center' }}>
-                    <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.png')} />
+                    <Image style={{ width: 120, height: 120 }} source={require('../assets/img/quiz.jpeg')} />
                     <Text style={{color:'#fff'}}>Python</Text>
                 </View>
                 </TouchableOpacity>
